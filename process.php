@@ -1,9 +1,8 @@
 <?php 
-include_once 'framworkTest.php';
-
+include_once 'framworkTest/Bob.php';
 $Bob = new Bob();
 
-$seizure = htmlspecialchars($_POST['seizure']);
+$ajax = htmlspecialchars($_POST['seizure']);
 
-$Bob->whatThat($seizure);
+echo $ajax;
 ?>
